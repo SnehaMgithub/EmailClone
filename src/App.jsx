@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { auth } from './firebase';
 import { setAuthUser } from './redux/appSlice';
 import Body from './components/Body';
-import Inbox from './components/inbox';
+import Inbox from './components/Inbox';
 import Mail from './components/Mail';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
