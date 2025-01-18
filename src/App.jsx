@@ -1,14 +1,14 @@
-import SendEmail from './Components/SendEmail';
+import SendEmail from './components/SendEmail';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { auth } from './firebase';
 import { setAuthUser } from './redux/appSlice';
-import Body from './Components/Body';
-import Inbox from './Components/inbox';
-import Mail from './Components/Mail';
-import Login from './Components/Login';
-import Navbar from './Components/Navbar';
+import Body from './components/Body';
+import Inbox from './components/inbox';
+import Mail from './components/Mail';
+import Login from './components/Login';
+import Navbar from './components/Navbar';
 
 const router = createBrowserRouter([
   {
